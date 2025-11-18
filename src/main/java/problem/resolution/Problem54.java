@@ -1,7 +1,5 @@
 package problem.resolution;
 
-import sun.tools.jconsole.JConsole;
-
 import java.util.ArrayList;
 import java.util.List;
 

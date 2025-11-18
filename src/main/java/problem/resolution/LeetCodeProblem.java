@@ -21,6 +21,12 @@ public abstract class LeetCodeProblem {
         return getDifficulty().toString() + " - " + getTitle();
     }
 
+    protected String note() {
+        return """
+                write something in here
+                """;
+    }
+
     public static class ListNode {
         int val;
         ListNode next;
