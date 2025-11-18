@@ -7,6 +7,9 @@ import java.lang.reflect.InvocationTargetException;
 public class ExecuteUtil {
 
     public static void runWithNumber(int suffix) {
+        // 记录执行统计
+        StatisticsUtil.recordExecution(suffix);
+        
         String classPrefix = "problem.resolution.Problem";  // 固定前缀
         String className = classPrefix + suffix;  // 生成完整的类名
 
