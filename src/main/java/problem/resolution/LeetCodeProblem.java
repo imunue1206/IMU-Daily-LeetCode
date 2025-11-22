@@ -1,5 +1,7 @@
 package problem.resolution;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Set;
 
 public abstract class LeetCodeProblem {
@@ -25,6 +27,13 @@ public abstract class LeetCodeProblem {
         return """
                 write something in here
                 """;
+    }
+
+    public List<String> getProblemInfo() {
+        List<String> infos = new ArrayList<>();
+        infos.add(getDifficulty().name());
+        infos.add(getTitle());
+        return infos;
     }
 
     public static class ListNode {
