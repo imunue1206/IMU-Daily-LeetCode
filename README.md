@@ -121,7 +121,7 @@ leetcode/
 ### 环境要求
 
 - IntelliJ IDEA (推荐2021.3+)
-- JDK 8+ 开发环境
+- JDK 11+ 开发环境
 - Maven 3.x 构建工具
 
 ### IDEA中操作步骤
