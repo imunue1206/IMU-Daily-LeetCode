@@ -6,7 +6,7 @@ public class Run {
 
     public static void main(String[] args) throws Exception {
 
-        ExecuteUtil.runWithNumber(392);
+        ExecuteUtil.runWithNumber(11);
     }
 
 }
